@@ -1,0 +1,95 @@
+body{
+    background: rgb(211, 226, 221);
+    display: flex;
+    margin: 0;
+}
+aside{
+    margin: 0;
+    background-color: #5d8684;
+    width: 330px;
+    height: 100vh;
+    border-right: 1px rgb(20, 220, 220) solid;
+}
+aside h1{
+    margin: 0;
+    width: 250px;
+    font-size: 3rem;
+    color: rgb(219, 210, 210);
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    font-family: 'Lobster',cursive;
+    text-align: center;
+}
+aside ul{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+aside ul li{
+    margin-bottom: 45px;
+    font-size: 1.6rem;
+    list-style: none;
+}
+aside ul li a{
+    text-decoration: none;
+    color: black;
+} 
+aside ul li:nth-child(6){
+    margin-top: 400px;
+}
+aside ul li:hover{
+    color: rgb(0, 200, 255);
+}
+aside ul li a:hover{
+    color: rgb(215, 111, 111);
+}
+.editar{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 2.8rem;
+    position: relative;
+    left: 750px;
+}
+form{
+    margin-top: 350px;
+    margin-left: 250px;
+    width: 855px;
+    height: 150px;
+    display: flex;
+    background-color: rgb(59, 172, 172);
+    border-radius: 10px;
+}
+form label p{
+    margin-left: 12px;
+    width: 190px;
+    height: 10px;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+}
+form input{
+    width: 180px;
+    height: 30px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+}
+form button{
+    height: 35px;
+    margin-top: 72px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    border-radius: 5px;
+    color: black;
+    border: outset;
+}

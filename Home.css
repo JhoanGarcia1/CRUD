@@ -1,0 +1,157 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+aside{
+    margin: 0;
+    background-color: #5d8684;
+    width: 330px;
+    height: 100vh;
+    border-right: 1px rgb(20, 220, 220) solid;
+}
+aside h1{
+    margin: 0;
+    width: 250px;
+    font-size: 3rem;
+    color: rgb(219, 210, 210);
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    font-family: 'Lobster',cursive;
+    text-align: center;
+}
+aside ul{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+aside ul li{
+    margin-bottom: 45px;
+    font-size: 1.6rem;
+    list-style: none;
+}
+aside ul li a{
+    text-decoration: none;
+    color: black;
+} 
+aside ul li:nth-child(6){
+    margin-top: 400px;
+}
+aside ul li:hover{
+    color: rgb(0, 200, 255);
+}
+aside ul li a:hover{
+    color: rgb(215, 111, 111);
+}
+section{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+section h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: -55px;
+    font-family: 'Lobster', cursive;
+}
+section p{
+    width: 850px;
+    margin-left: 350px;
+    text-align: justify;
+    font-size: 1.8rem;
+    font-family: 'Lora', serif;
+}
+section form{
+    margin-left: 350px;
+    width: 855px;
+    height: 150px;
+    display: flex;
+    background-color: rgb(59, 172, 172);
+    border-radius: 10px;
+}
+section form label p{
+    margin-left: 12px;
+    width: 190px;
+    height: 10px;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+}
+section form input{
+    width: 180px;
+    height: 30px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+}
+section form button{
+    height: 35px;
+    margin-top: 72px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    border-radius: 5px;
+    color: black;
+    border: outset;
+}
+.table{
+    background-color: rgba(255, 0, 0, 0.113);
+    width: 855px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+.table h2{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    border-bottom: 2px solid crimson;
+    color: rgb(70, 70, 62);
+}
+.tabla{
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Lora', serif;
+}
+.tabla thead tr th {
+    color: rgb(32, 30, 30);
+    font-size: 1.6rem;
+}
+.tabla tbody{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+.tabla tbody th a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-family:'Lobster',cursive;
+}
+.tabla tbody th:nth-child(4){
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+.tabla tbody th:nth-child(4):hover{
+    background-color: rgb(0, 140, 255);
+}
+.tabla tbody th:nth-child(5){
+    background-color: rgba(255, 0, 0, 0.439);
+    border-radius: 10px;
+}
+.tabla tbody th:nth-child(5):hover{
+    background-color: rgb(255, 0, 0);
+}

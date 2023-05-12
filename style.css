@@ -1,0 +1,247 @@
+:root{
+    --ColorIcon: #f5de7d;
+    --ColorLetter:white;
+    --ColorBackground:rgb(65 0 105);
+}
+html{
+    font-size: 62.5%;
+    background-color: #ffffff;
+    color: var(--ColorLetter);
+}
+::-webkit-scrollbar{
+    width: 6px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #ffd500;
+    border-radius: 20px;
+    cursor: pointer;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #5d8684;
+    color: #ffff;
+    font-size: medium;
+}
+header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    height: 100px;
+}
+.nav-bar__Logo{
+   display: flex;
+}
+.nav-bar__Logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.nav-bar__Logo a{
+    text-decoration: none;
+}
+.nav-bar__Logo h1{
+    font-family: 'Lobster', cursive;
+    margin-top: 36px;
+    margin-left: 2px;
+    color: var(--ColorLetter);
+}
+.nav-bar__Lista{
+    display: flex;
+    list-style: none;
+    font-size: medium;
+    color: var(--ColorLetter);
+    margin-top: 44px;
+    margin-left: 610px;
+}
+.nav-bar__Lista a{
+    text-decoration: none;
+    color: #f9cb00;
+}
+.nav-bar__Lista li {
+   margin-left: 15px;
+}
+.nav-bar__Lista li:hover{
+    color: var(--ColorIcon);
+    border-bottom: 1px dotted var(--ColorIcon);
+}
+.nav-bar__Lista li:nth-child(6){
+    color: white;
+    font-weight: 800;
+}
+.nav-bar__Lista a:nth-child(6):hover{
+    color: var(--ColorIcon);
+    transform: perspective(200px) scale3d(0.7, 0.7, 0.7) translateZ(100px);
+}
+.nav-bar__redes_sociales{
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+    margin-left: 106px;
+    margin-top: 20px;
+}
+.nav-bar__redes_sociales img{
+    margin-top: 15px;
+}
+/* CONTENEDOR LOGIN */
+.Caja-login{
+    background: rgba(255, 255, 255, 0.288);
+    width: 500px;
+    height: 480px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Caja-login h1{
+    margin-left: 130px;
+    margin-bottom: 60px;
+    position: relative;
+    top: 13px;
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+}
+.Caja-login form{
+    margin-left: 130px;
+    font-size: 1.2rem;
+}
+.Caja-login form p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Lora' serif;
+    font-size: medium;
+}
+.Caja-login form input {
+    font-family: 'Lora', serif;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 210px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    color: black;
+}
+.Caja-login form input:focus{
+    text-align: center;
+    outline: none;
+    border: 0;
+    color: aliceblue;
+    background-color: rgb(145, 145, 145);
+}
+.an{
+    text-decoration: none;
+    font-family: 'Lora' serif;
+    font-size: medium;
+    color: rgb(255, 252, 252);
+}
+.an:hover{
+    color: rgb(0, 204, 255);
+}
+.Caja-login form button{
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: medium;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 210px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+.Caja-login form button:hover{
+    background-color: rgb(0, 149, 255);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.boton-crear{
+    margin-top: 0;
+    color: black;
+    font-weight: bold;
+}
+.boton__crear{
+    text-decoration: none;
+    color: black;
+}
+.boton__crear:hover{
+    color: aliceblue;
+}
+footer{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(42, 42, 42);
+}
+.Logo-DiamondSystem{
+    display: flex;
+}
+.Logo-DiamondSystem h1{
+    font-family: 'Lobster', cursive;
+    margin-top: 16px;
+    margin-left: 2px;
+    color: rgb(255, 255, 255);
+}
+.Logo-footer-Diamond{
+    width: 80px;
+    height: 80px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: row;
+}
+.ancore{
+    margin-left: 880px;
+    margin-top: 25px;
+}
+.ancore img{
+    width: 40px;  
+    margin-right: 15px;  
+}
+.footer-p{
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 200px;
+}
+.Sección-Información{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.Sección-Información span h4{
+    margin-left: 40px;
+    margin-bottom: 0;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+.Sección-Información span ul{
+    margin-top: 1px;
+    list-style: none;
+}
+.Sección-Información span ul a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--ColorLetter);
+}
+.Sección-Información span ul li{
+    color: var(--ColorLetter);
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+.Copyright©20233{
+    margin: 0;
+}
