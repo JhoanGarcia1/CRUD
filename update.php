@@ -31,7 +31,7 @@
             <li>Reporte</li>
             <li>Estudiantes</li>
             <li>Graficos</li>
-            <li><a href="./index.php">Cerrar Sesion</a></li>
+            <li><a href="./index.html">Cerrar Sesion</a></li>
         </ul>
     </aside>
     <h1 class="editar">Editar Nota</h1>

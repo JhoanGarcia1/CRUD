@@ -20,8 +20,8 @@
     <header>
         <nav class="nav-bar">
             <div class="nav-bar__Logo">
-                <a href="./index.php"><img src="./imag/notas-ancladas.png" alt="Logo"></a>
-                <a href="./index.php"><h1>Registro de notas</h1></a>
+                <a href="./index.html"><img src="./imag/notas-ancladas.png" alt="Logo"></a>
+                <a href="./index.html"><h1>Registro de notas</h1></a>
             </div>
             <ul class="nav-bar__Lista">
                 <li>Blogs</li>
